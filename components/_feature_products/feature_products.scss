@@ -1,0 +1,85 @@
+.future-products{
+
+    .future-products-wrapper{
+        margin-top: 108px;
+         
+        .info-text{
+            text-align: center;
+            width: 100%;
+            
+            h2{
+                letter-spacing: 3px;
+                font-weight: bold;
+                padding-bottom: 39px;
+                color: $third_color;
+                font-size:$font_2lg;
+                
+            }
+
+            p{
+                font-size: $font_sm;
+                color: $gr_color;
+                padding-bottom: 29px;
+                letter-spacing: 2px;
+                
+            }
+
+            .line{
+                width: 150px;
+                height: 3px;
+                background-color:$main-color;
+                margin-left: 43%;
+            }
+
+            
+        }
+
+       .list{
+        justify-content: center;
+        text-align: center;
+        padding-top: 87px;
+          li{
+              display: inline-block;
+              padding-right: 60px;
+
+                .active,
+                :hover {
+                   
+                    color: $main_color ;
+                    
+                }
+
+
+               &.active{
+                   a{
+                    color: $main_color;
+                   }
+               }  
+
+              a{
+                  text-decoration: none;
+                  color:$second_color;
+                  font-size: $font_md3; 
+               }
+
+           }
+
+        }
+
+       .info-img{
+           flex-wrap: wrap;
+           padding-top: 60px;
+           display: flex;
+           justify-content: space-between;
+           div{
+               height: 250px;
+               width: 24%;
+               background-image: url(../images/bee-on-daisy.jpg);
+               background-size: contain;
+               background-repeat:no-repeat;
+               
+
+            }      
+        }
+    }
+}

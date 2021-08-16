@@ -1,0 +1,136 @@
+@media(max-width:$content_width_tablet_lg){
+    .provide{
+        .provide-content-wrapper{
+            margin-top: 88px;
+            padding-bottom: 88px;
+            .info-left{
+                h2{
+                    font-size: 30px;
+                    letter-spacing: 3px;
+                }
+
+                p{
+                    font-size: 13px;
+                }
+
+                button{
+                    height: 45px ;
+                    width: 200px;
+                }
+            }
+
+            .info-right{
+                .info-item{
+                    img{
+                        width: 30px;
+
+                    }
+
+                    h3{
+                        font-size: 17px;
+                    }
+
+                    p{
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:$content_width_tablet){
+    .provide{
+        .provide-content-wrapper{
+            flex-direction: column;
+            margin-top: 88px;
+            padding-bottom: 88px;
+            .info-left{
+                width: 100%;
+                text-align: center;
+                h2{
+                    font-size: 30px;
+                    letter-spacing: 3px;
+                }
+
+                p{
+                    font-size: 13px;
+                    width: 100%;
+                }
+
+                button{
+                    height: 45px ;
+                    width: 200px;
+                }
+            }
+
+            .info-right{
+                width: 100%;
+                .info-item{
+                    img{
+                        width: 30px;
+
+                    }
+
+                    h3{
+                        font-size: 17px;
+                    }
+
+                    p{
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:$content_width_phone){
+    .provide{
+        .provide-content-wrapper{
+            flex-direction: column;
+            margin-top: 88px;
+            padding-bottom: 88px;
+            .info-left{
+                width: 100%;
+                text-align: center;
+                h2{
+                    font-size: 30px;
+                    letter-spacing: 3px;
+                }
+
+                p{
+                    font-size: 13px;
+                    width: 100%;
+                }
+
+                button{
+                    height: 45px ;
+                    width: 200px;
+                }
+            }
+
+            .info-right{
+                width: 100%;
+                flex-direction: column;
+                text-align: center;
+                .info-item{
+                    width: 100%;
+                    img{
+                        width: 50px;
+
+                    }
+
+                    h3{
+                        font-size: 20px;
+                    }
+
+                    p{
+                        font-size: 17px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

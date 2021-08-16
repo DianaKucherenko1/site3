@@ -1,0 +1,108 @@
+.info-contact{
+
+    .info-contact-wrapper{
+        margin-top: 116px;
+
+        .get{
+            width: 50%;
+
+            h2{
+                font-weight: bold;
+                padding-bottom: 50px;
+                color: $third_color;
+                font-size:$font_2lg;
+            }
+
+            p{
+                font-size: $font_md;
+                padding-bottom: 60px;
+                color: $gr_color;
+                letter-spacing: 1px;
+              
+            }
+
+            .line{
+                width: 150px;
+                height: 3px;
+                background-color:$main-color;
+                
+            }
+
+        }
+
+        .contact{
+            display: flex;
+            margin-top: 76px;
+
+            .info-left{
+                width: 80%;
+
+                .back{
+                    width: 85%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 75px;
+                    input{
+                        width: 40%;
+                        color:#9a9a9a ;
+                        background-color: #e5e5e5;
+                        border-radius: 5px;
+                        border-color:#e5e5e5 ;
+                        margin-bottom: 45px;
+                        padding: 20px 10px 20px 25px;
+                    }
+
+                }
+
+
+                .bottom{
+                
+
+                   textarea{
+                    width: 80%;
+                    margin-bottom: 45px;
+                    border-color:#e5e5e5 ;
+                    color:#9a9a9a ;
+                    background-color: #e5e5e5;
+                    border-radius: 5px;
+                    padding: 35px 0 200px 50px;
+                   }
+
+                   button{
+                    width: 85%;
+                    padding: 23px 0px;
+                    color: white;
+                    background-color:$btn2_color;
+                    border-color: $btn2_color;
+                    border-radius: 5px;
+                    
+                   }
+                }
+
+            }
+
+            .info-right{
+                width: 40%;
+                background-color: #2d2d2d;
+
+                h3{
+                    color: #b3b3b3;
+                    padding-bottom: 36px;
+                    padding-top: 173px;
+                    padding-left: 75px;
+                }
+
+                p{
+                    color: #b3b3b3;
+                    padding-bottom: 30px;
+                    padding-left: 75px;
+                }
+
+                p:last-child{
+                    padding-bottom: 143px;
+                }
+
+            }
+        }
+    }
+}

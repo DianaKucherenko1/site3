@@ -1,0 +1,50 @@
+.banner-adress{
+    background-image: url(../images/banner.png);
+    @extend %background;
+
+    .banner-adress-wrapper{
+        justify-content: center;
+        text-align: center;
+        margin-top: 110px;
+        h3{
+            color: white;
+            font-size: $font_xlg;
+            padding-bottom: 45px;
+            padding-top: 140px;
+            font-weight: bolder;
+
+        }
+
+        p{
+            color: white;
+            padding-bottom: 60px;
+
+        }
+
+        form{
+            width: 100%;
+            @extend %main_first;
+            padding-bottom: 141px;
+            label{
+                width: 60%;
+                padding-right: 22px;
+                
+                input{
+                    width: 90%;
+                    padding: 23px 0;
+                    background-color:white ;
+                    border-radius: 5px;
+                    border-color: white;
+                }
+            }
+            button{
+                width: 15%;
+                color: white;
+                background-color: $btn2_color;
+                border-color: $btn2_color;
+                border-radius: 5px;
+                
+            }
+        }
+    }
+}

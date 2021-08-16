@@ -1,0 +1,84 @@
+.meet{
+    .meet-content-wrapper{
+        margin-top: 138px;
+        .text{
+            padding-bottom: 75px;
+
+            h2{
+                
+                padding-bottom: 41px;
+                font-weight: bold;
+                letter-spacing: 3px;
+                color: $third_color;
+                font-size:$font_2lg;
+
+            }
+
+            p{
+                font-size: $font_md;
+                padding-bottom: 60px;
+                color:$second_color;
+                width: 452px;
+                letter-spacing: 1px;
+                
+
+            }
+
+            .line{
+                width: 150px;
+                height: 3px;
+                background-color: red;
+            }
+        }
+
+        .mark-img{
+            display: flex;
+            
+
+            .info-left{
+                width: 25%;
+                background-image: url(../images/2-7.jpg);
+                @extend %background;
+            
+
+            }
+
+            .info-right{
+                width: 75%;
+                margin-left: 74px;
+
+                h3{
+                    padding-bottom: 35px;
+                    font-size: 25px;
+                    color:$third_color ;
+                    font-weight: bold;
+                    
+
+                }
+
+                p{
+                    padding-bottom: 45px;
+                    color:$second_color ;
+                    width: 65%;
+
+                }
+
+                li{
+                    display: inline-block;
+                    padding-right: 27px;
+                    font-size:$font_md2;
+                    margin-bottom: 68px;
+
+                }
+
+                img{
+                    width: 20%;
+                
+                    
+                }
+
+            }
+        }
+
+    }
+}

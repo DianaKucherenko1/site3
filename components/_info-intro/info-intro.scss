@@ -1,0 +1,54 @@
+.info-intro{
+ background-color: #f6f2f2;
+
+    .info-intro-content-wrapper{
+
+      display: flex;
+      justify-content: space-between;
+      padding: 103px 0 111px;
+
+       .info-left{
+         width: 50%;
+
+            h2{
+            font-weight: bolder ;
+            font-size: 50px;
+            padding-bottom: 42px;
+            letter-spacing: 5px;
+        
+           }
+
+            p{
+            font-size: $font_md ;
+            padding-bottom: 60px;
+            width: 70%;
+            letter-spacing: 2px;
+            padding-bottom: 60px;
+            color: $text_color;
+            }
+
+            button{
+            color: white;
+            background-color:$main_color;
+            @extend %button;
+            border-color: $main_color;
+            
+            
+            }
+
+        }
+
+        .info-right{
+          width: 50%;
+
+
+          iframe{
+          width: 80%;
+          box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+         }  
+
+        }   
+
+    }    
+
+ } 

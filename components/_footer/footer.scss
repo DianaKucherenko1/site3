@@ -1,0 +1,47 @@
+footer{
+    background-color: #313030;
+
+    .footer-content-wrapper{
+        display: flex;
+        margin-top: 111px;
+        
+        
+     
+        
+       
+
+        .info-left {
+            width: 80%;
+            padding-top: 50px;
+            padding-bottom: 40px;
+
+        
+           a{
+            text-decoration: none;
+            color:#afafaf ;
+            
+            
+            }
+
+        }
+
+        .info-right {
+            width: 20%;
+            
+        
+            li{
+                display: inline-block;
+                padding-right: 13px;
+                padding-top: 33px;
+                padding-bottom: 30px;
+                
+                
+
+               a{
+                padding: 0px 0px;
+                }
+         
+            }
+        }
+    }
+}
